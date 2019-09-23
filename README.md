@@ -110,3 +110,16 @@ yarn start
 This app uses [customize-cra](https://github.com/arackaf/customize-cra) in order to customize webpack, babel and all default `create-react-app` options. 
 
 You can customize it at `app/config-overrides.js`.
+
+#### Code format with Prettier
+
+This app commes with [Prettier](https://prettier.io/) for handling code format. You can format the app/ runing 
+
+```bash
+# At app folder (I.E '../resk-react-webpack-box/app')
+yarn lint
+```
+
+To define new rules or edit exsting ones, just edit `.prettierrc`
+
+You can ignore files at `.prettierignore`
