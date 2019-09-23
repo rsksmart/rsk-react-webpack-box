@@ -33,7 +33,7 @@ If you don't have `yarn` installed you can install it running
 npm install -g yarn
 ```
 
-### Truffle Envirnoment setup
+### Truffle Environment setup
 
 First ensure you are at the root folder and have truffle installed. 
 
