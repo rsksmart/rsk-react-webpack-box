@@ -101,6 +101,17 @@ Then you can run the app with
 yarn start
 ```
 
+#### Build
+
+To build the `app/` run 
+
+```bash
+# At app folder (I.E '../resk-react-webpack-box/app')
+yarn build
+```
+
+
+
 #### Comunicating with RSK network
 
 [Web3 JS](https://web3js.readthedocs.io) and [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx) have been bundled for comunicating with RSK network.
