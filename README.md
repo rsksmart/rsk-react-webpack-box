@@ -7,7 +7,7 @@ The the app was created with create-react-app and it can be customized with cust
 
 This starter contains two main elements
 - Truffle framework 
-- React App (located at app/ folder)
+- React App (located at `app/` folder)
 
 ## Unboxing
 
@@ -23,7 +23,7 @@ truffle unbox rsk-react-webpack-box
 
 This box comes with two environments
 - Truffle environment (located at root folder)
-- React environment (located at /app)
+- React environment (located at `/app`)
 
 Each environment comes with a specific `package.json`, if you want to manage truffle `package.json` you simply run npm commands at root folder. For `app/package.json` you'll need to install and manage it with `yarn` package manager (because it's a create-react-app)
 
@@ -94,12 +94,14 @@ First install it's dependenices. Remember that you'll need to manage it with `ya
 yarn
 ```
 
-Then you can run the app with
+Then you can run the `app/` with
 
 ```bash
 # At app folder (I.E '../resk-react-webpack-box/app')
 yarn start
 ```
+
+**The page will automatically reload if you make changes to the code.**
 
 #### Build
 
@@ -118,13 +120,13 @@ yarn build
 
 #### Customizing create-react-app default options
 
-This app uses [customize-cra](https://github.com/arackaf/customize-cra) in order to customize webpack, babel and all default `create-react-app` options. 
+This app/ uses [customize-cra](https://github.com/arackaf/customize-cra) in order to customize webpack, babel and all default `create-react-app` options. 
 
 You can customize it at `app/config-overrides.js`.
 
 #### Code format with Prettier
 
-This app commes with [Prettier](https://prettier.io/) for handling code format. You can format the app/ runing 
+This project is integrated with [Prettier](https://prettier.io/) for handling code format. You can format the `app/` runing 
 
 ```bash
 # At app folder (I.E '../resk-react-webpack-box/app')
