@@ -14,7 +14,7 @@ This starter contains two main elements
 Run the unbox command
 
 ```bash
-truffle unbox rsk-react-webpack-box
+truffle unbox rsksmart/rsk-react-webpack-box
 ```
 
 ## Environment setup
