@@ -3,7 +3,7 @@
 ## Description
 
 In this box you'll find a basic starter pack. It includes Truffle, React and Webpack.
-The the app was created with create-react-app and it can be customized with customize-cra.
+The app was created with create-react-app and it can be customized with customize-cra.
 
 This starter contains two main elements
 - Truffle framework 
