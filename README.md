@@ -3,7 +3,7 @@
 ## Description
 
 In this box you'll find a basic starter pack. It includes Truffle, React and Webpack.
-The the app was created with create-react-app and it can be customized with customize-cra.
+The app was created with create-react-app and it can be customized with customize-cra.
 
 This starter contains two main elements
 - Truffle framework 
@@ -14,7 +14,7 @@ This starter contains two main elements
 Run the unbox command
 
 ```bash
-truffle unbox rsk-react-webpack-box
+truffle unbox rsksmart/rsk-react-webpack-box
 ```
 
 For simplicity, there is hook that is going to setup the environment and install all it's dependencies.
