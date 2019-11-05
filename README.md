@@ -9,9 +9,12 @@ This starter contains two main elements
 - Truffle framework 
 - React App (located at `app/` folder)
 
-##Pre requisites
-1) Install node or update (optional)
+## Pre requisites
+
+Install node or update 
+
 Install node -> https://nodejs.org/en/download/
+
 Update node -> npm update
 
 
