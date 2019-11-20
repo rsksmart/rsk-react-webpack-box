@@ -26,6 +26,8 @@ Run the unbox command
 truffle unbox rsksmart/rsk-react-webpack-box
 ```
 
+For simplicity, there is hook that is going to setup the environment and install all it's dependencies.
+
 ## Environment setup
 
 ### Description
