@@ -73,7 +73,7 @@ In your `truffle-config.json` file import env variables
 ```js
 // truffle-config.json
 
-const HDWalletProvider = require('truffle-hdwallet-provider');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 // Require dotenv
 require('dotenv').config();

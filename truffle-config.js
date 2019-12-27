@@ -1,4 +1,4 @@
-const HDWalletProvider = require('truffle-hdwallet-provider');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 //Put your mnemonic in the .env
 //1) Install dotenv dependecy (npm i dotenv --save)
