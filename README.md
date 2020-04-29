@@ -9,6 +9,15 @@ This starter contains two main elements
 - Truffle framework 
 - React App (located at `app/` folder)
 
+## Pre requisites
+
+Install node or update 
+
+Install node -> https://nodejs.org/en/download/
+
+Update node -> npm update
+
+
 ## Unboxing
 
 Run the unbox command
@@ -52,13 +61,26 @@ To install truffle dependencies
 npm install
 ```
 
-Now, the only thing you'll need to do it's to copy your mnemonic to truffle-config.js
+Now, the only thing you'll need to do it's to create in the root directory a .env file and write your nemonic there
+
+```
+A_MNEMONIC="Write your seed words here"
+
+```
+
+In your `truffle-config.json` file import env variables 
 
 ```js
 // truffle-config.json
 
-const HDWalletProvider = require('truffle-hdwallet-provider');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 
+// Require dotenv
+require('dotenv').config();
+
+//You should never deploy your mnemonic into production or you will lost your crypto!
+const mnemonic = process.env.A_MNEMONIC;
+//4) Make sure you add  togitignore the file .env 
 //Put your mnemonic here, take care of this and don't deploy your mnemonic into production!
 const mnemonic = 'A_MNEMONIC';
 ```
